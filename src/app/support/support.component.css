@@ -1,0 +1,34 @@
+.order-section-header {
+    background-color: #343A40;
+}
+
+.order-section-header h2 {
+    font-size: 25px;
+    color: #339af0;
+}
+
+.order-section-header h4 {
+    font-size: 20px;
+    color: #339af0;
+}
+
+.order-heading {
+    background-color: whitesmoke;
+}
+
+.list-of-items li {
+    padding-bottom: 30px;
+}
+
+.list-of-items li h4 {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+}
+
+b {
+    color: #333;
+}
+
+ol {
+    list-style: circle;
+}

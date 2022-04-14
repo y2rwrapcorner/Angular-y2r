@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "condiment";
+    src: local("condiment"), url(./assets/fonts/condiment/Condiment-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "pompiere";
+    src: local("pompiere"), url(./assets/fonts/pompiere/Pompiere-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "josefin-sans";
+    src: local("josefin-sans"), url(./assets/fonts/josefin-sans/JosefinSans-Regular.ttf) format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,129 @@
+.softtoys-headline {
+    background-color: #e9ecef;
+}
+
+.header-title {
+    font-weight: 600;
+    font-family: "condiment";
+    color: #e74c3c;
+    letter-spacing: .2rem;
+    text-shadow: 2px 2px #5bb9eb;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.breadcrumb-item a {
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "pompiere";
+}
+
+@media (max-width: 520px) {
+    .breadcrumb-item a {
+        font-weight: 600;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: "pompiere";
+    }
+}
+
+.breadcrumb-item a:hover {
+    color: #000000;
+    transition: all ease-in .3s;
+}
+
+.item-active {
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Riviera Nights", "Gill Alt One MT", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+@media (max-width: 520px) {
+    .item-active {
+        font-weight: 600;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: "Riviera Nights", "Gill Alt One MT", Helvetica, Arial, -apple-system, sans-serif;
+    }
+}
+
+.content {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -6px -6px 6px rgb(0, 0, 0, 0.1), 6px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inside-column {
+    padding-bottom: 30px;
+}
+
+@media (max-width: 520px) {
+    .inside-column {
+        padding-bottom: 30px;
+    }
+    .sample-1 {
+        padding-top: 30px;
+    }
+}
+
+.header-1 {
+    font-family: "condiment";
+    padding-top: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background: #0071e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-transparent {
+    font-weight: 600;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.button:hover {
+    background: #0984e3;
+}
+
+
+/*  demo-area customization*/
+
+.info-text {
+    font-family: "josefin-sans";
+    font-weight: 600;
+}
+
+
+/*  Complete mobile views*/
+
+@media (max-width:540px) {
+    .demo-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width:720px) {
+    .demo-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}

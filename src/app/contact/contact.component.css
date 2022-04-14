@@ -1,0 +1,133 @@
+h1 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 6px;
+    color: #1d1d1f;
+    padding-top: 20px;
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 40px;
+        line-height: 1.07143;
+        font-weight: 600;
+        color: #1d1d1f;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+h4 {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+@media (max-width:576px) {
+    h4 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.head {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width:576px) {
+    .head {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.address {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+@media (max-width:576px) {
+    .address {
+        padding-top: 20px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.social-media i {
+    font-size: 40px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.fa-facebook {
+    color: #ffffff;
+}
+
+.fa-facebook:hover {
+    color: #0084FF;
+    transition: all ease-in .5s;
+}
+
+.fa-instagram:hover {
+    color: #d6249f;
+    transition: all ease-in .5s;
+}
+
+.fa-instagram {
+    color: #ffffff;
+}
+
+.fa-twitter {
+    color: #ffffff;
+}
+
+.fa-twitter:hover {
+    color: #08a0e9;
+    transition: all ease-in .5s;
+}
+
+.fa-youtube {
+    color: #ffffff;
+}
+
+.fa-envelope {
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.fa-envelope:hover {
+    color: #B23121;
+    transition: all ease-in .5s;
+}
+
+.head {
+    color: #ffffff;
+}
+
+.social-media {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.address-details {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+hr {
+    background-color: black;
+}
+
+.hr2 {
+    background-color: white;
+}
+
+.quote {
+    background-color: #dfe4ea;
+}

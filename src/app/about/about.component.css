@@ -1,0 +1,60 @@
+h1 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 6px;
+    color: #1d1d1f;
+    padding-top: 20px;
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 40px;
+        line-height: 1.07143;
+        font-weight: 600;
+        color: #1d1d1f;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+.intro {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.73;
+    letter-spacing: .1px;
+    text-align: center;
+    color: #333;
+    max-width: 1024px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.headline {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 1.1px;
+    color: #333;
+}
+
+.about-content {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.73;
+    letter-spacing: .1px;
+    text-align: start;
+    color: #333;
+}
+
+hr {
+    background-color: black;
+}
